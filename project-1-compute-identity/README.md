@@ -26,8 +26,6 @@ Ziel: Eine VM sicher deployen, Zugriff über RBAC + Entra ID + Key Vault regeln,
 | 8 | Compliance-Status: 100 % konform | `screenshots/vm-policy-compliance.png` |
 | 9 | Budget mit Alert-Schwellen eingerichtet | `screenshots/cost-budget.png` |
 
-*(Screenshots liegen im Ordner `screenshots/` — bitte vor dem Commit dort ablegen.)*
-
 ## Was ich gelernt habe
 
 - RBAC über eine **Gruppe statt einzelner Nutzer** zu vergeben skaliert besser — neue Teammitglieder bekommen Zugriff einfach durch Gruppenmitgliedschaft.
