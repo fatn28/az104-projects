@@ -34,7 +34,7 @@ Ziel: Eine VM sicher deployen, Zugriff über RBAC + Entra ID + Key Vault regeln,
 - Azure Policy trennt **Definition** und **Zuweisung (Assignment)** als zwei separate Schritte — eine Definition allein bewirkt noch nichts.
 - Kostendaten und Advisor-Empfehlungen haben spürbare Latenz (Stunden bis Tage) — kein Grund zur Sorge bei "0 €" direkt nach dem Deployment.
 
-Ausführliche Schritt-für-Schritt-Erklärung inkl. aller Troubleshooting-Schritte: siehe [`az104-project1-detailed-notes.md`](./az104-project1-detailed-notes.md).
+Ausführliche Schritt-für-Schritt-Erklärung inkl. aller Troubleshooting-Schritte: siehe [`detailed-notes.md`](./detailed-notes.md).
 
 ## Cleanup
 
