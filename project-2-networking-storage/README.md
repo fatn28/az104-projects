@@ -24,8 +24,6 @@ Ziel: Ein VNet mit isolierten Subnets aufbauen, den Storage-Zugriff über Privat
 | 5 | VNet + Storage Account als ARM-Template exportiert und als Template Specs importiert | `screenshots/template-specs-overview.png` |
 | 6 | SAS-Token generiert, Zugriff über temporäre Test-VM mit AzCopy erfolgreich verifiziert | `screenshots/azcopy-upload-success.png` |
 
-*(Screenshots liegen im Ordner `screenshots/` — bitte vor dem Commit dort ablegen.)*
-
 ## Was ich gelernt habe
 
 - **Private Endpoints** machen einen Dienst faktisch unsichtbar fürs öffentliche Internet — selbst ein gültiges SAS-Token nützt nichts ohne Netzwerkpfad ins VNet.
