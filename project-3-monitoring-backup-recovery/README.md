@@ -23,8 +23,6 @@ Ziel: Eine VM überwachen (Metriken + Alerts), regelmäßige Backups einrichten,
 | 5 | KQL-Query gegen `Perf`-Tabelle erfolgreich mit echten CPU-Daten | `screenshots/log-query-results.png` |
 | 6 | Vault-Verschlüsselung und Security Level bestätigt | `screenshots/vault-properties-security.png` |
 
-*(Screenshots liegen im Ordner `screenshots/` — bitte vor dem Commit dort ablegen.)*
-
 ## Was ich gelernt habe
 
 - Die neue "Configure monitor"-Oberfläche für VM Insights trennt zwischen **OpenTelemetry-Metriken** (moderner Prometheus-Pfad, braucht eine User-assigned Identity) und **Classic Log-based metrics** — letztere hat in der Praxis keinen funktionierenden Agent mehr deployed, da der klassische Log-Analytics-Agent abgekündigt ist.
