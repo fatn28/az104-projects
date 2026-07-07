@@ -22,9 +22,10 @@ Ziel: Eine Web-App über eine CI/CD-Pipeline auf Azure App Service deployen, mit
 | 3 | Production-Ausgabe vor dem Swap | `screenshots/webapp-output-production.png` |
 | 4 | Staging-Ausgabe vor dem Swap | `screenshots/webapp-output-staging.png` |
 | 5 | Deployment Slots erstellt und erfolgreich geswappt | `screenshots/deployment-slots-swap.png` |
-| 6 | Custom-Autoscale-Regeln (CPU-basiert) eingerichtet | `screenshots/autoscale-rules.png` |
+| 6 | Custom-Autoscale-Regeln (CPU-basiert) eingerichtet — Screenshot nicht mehr verfügbar, da die Resource Group vor der Aufnahme bereits gelöscht war. Konfiguration ist in [`detailed-notes.md`](./detailed-notes.md#4-autoscaling) vollständig beschrieben | – |
 | 7 | Manuelles Backup erfolgreich | `screenshots/backup-success.png` |
 | 8 | Alert-Regel für Monitoring erstellt | `screenshots/alert-rule-metrics.png` |
+| 9 | Response-Time-Metrik im Zeitverlauf (zusätzlicher Monitoring-Beleg) | `screenshots/response-time-metrics.png` |
 
 ## Was ich gelernt habe
 
