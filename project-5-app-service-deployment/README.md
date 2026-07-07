@@ -26,8 +26,6 @@ Ziel: Eine Web-App über eine CI/CD-Pipeline auf Azure App Service deployen, mit
 | 7 | Manuelles Backup erfolgreich | `screenshots/backup-success.png` |
 | 8 | Alert-Regel für Monitoring erstellt | `screenshots/alert-rule-metrics.png` |
 
-*(Screenshots liegen im Ordner `screenshots/` — bitte vor dem Commit dort ablegen.)*
-
 ## Was ich gelernt habe
 
 - **Deployment Slots** und **Custom Autoscale** brauchen mindestens den **Standard-Tarif** — der Free-Tier unterstützt beides nicht. Kurzzeitiges Hochskalieren zum Testen, danach zurück auf Free, hält die Kosten minimal.
