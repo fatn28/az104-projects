@@ -23,8 +23,6 @@ Ziel: Nutzer/Gruppen in Entra ID verwalten, eine Applikation registrieren und pe
 | 5 | Per-user MFA für alle drei Nutzer aktiviert | `screenshots/mfa-per-user-enabled.png` |
 | 6 | Sign-in-Logs: Failure + Success für Anna Admin | `screenshots/sign-in-logs-anna.png` |
 
-*(Screenshots liegen im Ordner `screenshots/` — bitte vor dem Commit dort ablegen.)*
-
 ## Was ich gelernt habe
 
 - **Entra ID Free vs. P1/P2** ist keine Kleinigkeit: Gruppenbasierte App-Zuweisung und Conditional Access sind reine Premium-Features, die im Free-Tier schlicht nicht verfügbar sind.
